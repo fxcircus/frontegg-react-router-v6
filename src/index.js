@@ -19,10 +19,6 @@ const contextOptions = {
 
 const authOptions = {
   keepSessionAlive: true,
-  // routes: {
-    // authenticatedUrl: '/settings',
-    // hostedLoginRedirectUrl: '/settings',
-  // }
 };
 
 const router = createBrowserRouter(
