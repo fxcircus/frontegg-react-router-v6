@@ -3,8 +3,6 @@ import { useEffect } from 'react';
 import { useAuth, useLoginWithRedirect, ContextHolder } from "@frontegg/react";
 import { Link, Outlet } from 'react-router-dom';
 
-// Remove the BrowserRouter import from this file since it's already created in index.js
-
 function App() {
   const { user, isAuthenticated } = useAuth();
   const loginWithRedirect = useLoginWithRedirect();
