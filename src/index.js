@@ -24,9 +24,9 @@ const authOptions = {
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route
-      path="/"
+      path="/*"
       element={
-        <FronteggProvider contextOptions={contextOptions} authOptions={authOptions}>
+        <FronteggProvider contextOptions={contextOptions} authOptions={authOptions} hostedLoginBox={true}>
           <App />
         </FronteggProvider>
       }
